@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browsername" value="IE"/>
+  <test name="Chrome Test">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="com.timesofindia.test.HomeTestPage"/>
+    </classes>
+  </test> <!-- Chrome Test -->
+  <test name="Firefox Test">
+    <parameter name="browsername" value="firefox"/>
+    <classes>
+      <class name="com.timesofindia.test.HomeTestPage"/>
+    </classes>
+  </test> <!-- Firefox Test -->
+  <test name="IE Test">
+    <parameter name="browsername" value="IE"/>
+    <classes>
+      <class name="com.timesofindia.test.HomeTestPage"/>
+    </classes>
+  </test> <!-- IE Test -->
+  <test name="IE Test(failed)" parallel="tests">
+    <parameter name="browsername" value="IE"/>
+    <classes>
+      <class name="com.timesofindia.test.HomeTestPage">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setupBrowser"/>
+          <include name="setupBrowser"/>
+          <include name="setupBrowser"/>
+          <include name="HomePage"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.timesofindia.test.HomeTestPage -->
+    </classes>
+  </test> <!-- IE Test(failed) -->
+  <test name="Chrome Test(failed)" parallel="tests">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="com.timesofindia.test.HomeTestPage">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setupBrowser"/>
+          <include name="setupBrowser"/>
+          <include name="setupBrowser"/>
+          <include name="HomePage"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.timesofindia.test.HomeTestPage -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test name="Firefox Test(failed)" parallel="tests">
+    <parameter name="browsername" value="firefox"/>
+    <classes>
+      <class name="com.timesofindia.test.HomeTestPage">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setupBrowser"/>
+          <include name="setupBrowser"/>
+          <include name="setupBrowser"/>
+          <include name="HomePage"/>
+          <include name="setupSuit"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="setupTest"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.timesofindia.test.HomeTestPage -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

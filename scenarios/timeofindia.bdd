@@ -1,0 +1,12 @@
+
+
+SCENARIO: Reading top stories from Times of india
+META-DATA: {"description":"get the count of available top stories & click on each stories","groups":["SMOKE"]}
+
+	#Given Launch url of times of india
+	#When Homepage should load properly
+	#And verify top stories text is present or not
+	#And get count of avaible top stories & click on each stories
+	
+END
+

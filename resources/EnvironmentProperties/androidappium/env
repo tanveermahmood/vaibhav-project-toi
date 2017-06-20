@@ -1,0 +1,8 @@
+driver.capabilities.platformName=android
+driver.capabilities.applicationName=TOI
+driver.capabilities.appPackage=com.toi.reader.activities
+driver.capabilities.appActivity=com.toi.reader.activities.NavigationFragmentActivity
+step.provider.pkg =com.timesofindia.test
+driver.capabilities.driverClass=io.appium.java_client.android.AndroidDriver 
+driver.additional.capabilities = {'autoAcceptAlerts':true,'autoLaunch':true}
+driver.capabilities.deviceName=192.168.199.101:5555

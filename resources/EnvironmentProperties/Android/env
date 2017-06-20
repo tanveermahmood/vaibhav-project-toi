@@ -1,0 +1,9 @@
+driver.capabilities.platformName=android
+#driver.capabilities.applicationName=
+#driver.capabilities.appPackage=
+step.provider.pkg =com.timesofindia.test 
+driver.capabilities.driverClass=io.appium.java_client.android.AndroidDriver
+#driver.capabilities.appPath = 
+#driver.additional.capabilities ={'autoAcceptAlerts':true,'autoLaunch':true}
+driver.capabilities.browserName=mobileOS
+driver.capabilities.deviceName=02157DF2A1B46C22

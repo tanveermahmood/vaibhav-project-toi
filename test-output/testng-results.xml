@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="518334" started-at="2017-06-12T12:00:54Z" finished-at="2017-06-12T12:09:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="518334" started-at="2017-06-12T12:00:54Z" finished-at="2017-06-12T12:09:32Z">
+      <class name="com.timesofindia.test.TimesOfIndiaCityTestPage">
+        <test-method status="PASS" signature="cityPage()[pri:0, instance:com.timesofindia.test.TimesOfIndiaCityTestPage@b3d7190]" name="cityPage" duration-ms="518115" started-at="2017-06-12T17:30:54Z" finished-at="2017-06-12T17:39:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div>]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>get '/'</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cityPage -->
+      </class> <!-- com.timesofindia.test.TimesOfIndiaCityTestPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
